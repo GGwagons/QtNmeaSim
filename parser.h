@@ -15,7 +15,6 @@ class Parser : public QObject {
 
 
     signals:
-        // fixType: 0=none/invalid, 1=2D, 2=3D (we'll use 2 for 3D), but we may enforce 3 for 3D when GSA reports 3
         void fixModeChanged(int fixType);
         void positionTimeAvailable(const QDateTime &utc, double latitudeDeg, double longitudeDeg);
 
