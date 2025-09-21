@@ -6,7 +6,7 @@ PC SW the NMEA messages are usually passed through serial port.
 
 Implement Qt/C++ based solution with 3 topics:
 1. Write a GNSS NMEA messages simulator (since data feed over serial port is not available)
-  1.1  Uses all lines from nmea.txt as simulated data, including bootup info
+  a.  Uses all lines from nmea.txt as simulated data, including bootup info
 
   b.  Simulated data can be either hardcoded inside code or read from .txt file
 
