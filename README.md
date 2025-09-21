@@ -35,5 +35,5 @@ Implement Qt/C++ based solution with 3 topics:
 
   c.  Notifications are done in real time
 
-Deliverables:
+## Deliverables:
   -   Buildable Windows Qt project
