@@ -5,7 +5,7 @@ using GNSS module which communicates with main computer via NMEA messages over U
 PC SW the NMEA messages are usually passed through serial port.
 
 Implement Qt/C++ based solution with 3 topics:
-1. Write a GNSS NMEA messages simulator (since data feed over serial port is not available)
+## Write a GNSS NMEA messages simulator (since data feed over serial port is not available)
   a.  Uses all lines from nmea.txt as simulated data, including bootup info
 
   b.  Simulated data can be either hardcoded inside code or read from .txt file
@@ -16,7 +16,7 @@ Implement Qt/C++ based solution with 3 topics:
   d.  Transmission of NMEA message should be done by emitting a signal “void
       transmitNmea(QString nmea)”
 
-2. NMEA parser:
+## NMEA parser:
 
   a.  Uses slots to retrieve data from transmitNmea(QString nmea) signal
 
@@ -28,7 +28,7 @@ Implement Qt/C++ based solution with 3 topics:
 
   e.  Each line is parsed or discarded as soon as it is received (real time parsing)
 
-3. Consumer:
+## Consumer:
   a.  Notifies user via qDebug() when entering or leaving 3D fix mode
 
   b.  When in 3D fix mode, it prints position and time
