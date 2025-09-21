@@ -13,7 +13,7 @@ SOURCES += \
 HEADERS += \
     client.h \
     parser.h \
-    simulator.h \
+    simulator.h
 
 
 DISTFILES += \
